@@ -1,0 +1,49 @@
+﻿@model NguyenVanThienDao_2121110390.Context.User
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<section class="section-content padding-y">
+
+    <!-- ============================ COMPONENT REGISTER   ================================= -->
+    <div class="card mx-auto" style="max-width:520px; margin-top:40px;">
+        <article class="card-body">
+            <header class="mb-4"><h4 class="card-title">Sign up</h4></header>
+            @using (Html.BeginForm("Register", "Home", FormMethod.Post, new { @class = "form" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-row">
+                    <div class="col form-group">
+                        <label>First name</label>
+                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", placeholder = "First name" })
+                    </div> <!-- form-group end.// -->
+                    <div class="col form-group">
+                        <label>Last name</label>
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", placeholder = "Last name" })
+                    </div> <!-- form-group end.// -->
+                </div> <!-- form-row end.// -->
+
+                <div class="form-row">
+                    <div class="col form-group">
+                        <label>Email</label>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
+                    </div> <!-- form-group end.// -->
+                    <div class="col form-group">
+                        <label>Password</label>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+                    </div> <!-- form-group end.// -->
+                </div> <!-- form-group end.// -->
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block mt-2">Register</button>
+                </div> <!-- form-group// -->
+            }
+        </article><!-- card-body.// -->
+    </div> <!-- card .// -->
+    <p class="text-center mt-4">Have an account? <a href="@Url.Action("Login","Home")">Log In</a></p>
+    <br><br>
+    <!-- ============================ COMPONENT REGISTER  END.// ================================= -->
+
+</section>

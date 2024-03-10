@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|d:\\asp .net\\nguyenvanthiendao_2121110390\\nguyenvanthiendao_2121110390\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|d:\\asp .net\\nguyenvanthiendao_2121110390\\nguyenvanthiendao_2121110390\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|d:\\asp .net\\nguyenvanthiendao_2121110390\\nguyenvanthiendao_2121110390\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|d:\\asp .net\\nguyenvanthiendao_2121110390\\nguyenvanthiendao_2121110390\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|D:\\ASP .NET\\NguyenVanThienDao_2121110390\\nguyenvanthiendao_2121110390\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|D:\\ASP .NET\\NguyenVanThienDao_2121110390\\nguyenvanthiendao_2121110390\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2801FD50-F368-4AEB-B988-B20D660EF122}|NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390.csproj|solutionrelative:nguyenvanthiendao_2121110390\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T09:28:47.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T09:28:46.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T09:27:55.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAQwGYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T05:53:08.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T05:42:35.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP .NET\\NguyenVanThienDao_2121110390\\NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NguyenVanThienDao_2121110390\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAgwN0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T04:27:54.082Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

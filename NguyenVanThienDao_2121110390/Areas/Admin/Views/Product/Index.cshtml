@@ -1,0 +1,102 @@
+﻿@model IEnumerable<NguyenVanThienDao_2121110390.Context.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<style>
+    h2 {
+        padding: 20px;
+    }
+    tr>th,td{
+        text-align:center;
+    }
+    tr > th {
+        border: 2px solid black;
+    }
+</style>
+
+
+<button class="btn" style="margin: 10px 20px;border:2px solid black; width:100px;height:40px">
+    <p>
+        @Html.ActionLink("Tạo Mới", "Create")
+    </p>
+</button>
+
+@using (Html.BeginForm("Index", "Product", FormMethod.Get))
+            {
+                <p style="margin: 20px 0 20px 400px">
+                    @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new
+               {
+                   placeholder = "Nhập tên sản phẩm"
+               })
+                    <input type="submit" value="Tìm kiếm" placeholder="Tên sản phẩm" class="bg-info "/>
+                </p>
+            }
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.describtion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.img)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.name)
+        </th>
+        <th></th>
+    </tr>
+
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.describtion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.status)
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.img))
+                    {
+                        <img src="@Url.Content("~/Images/" + item.img)" alt="Hình ảnh" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <text>No Image</text>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.name)
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", "Product", new { id = item.id }, null)"><i class="icon fa fa-edit" style="font-size:24px;color:blue;margin-right:10px"></i></a>
+                    <a href="@Url.Action("Details", "Product", new { id = item.id }, null)"><i class="icon fa fa-pen" style="font-size: 24px; color: slategray; margin-right: 10px"></i></a>
+                    <a href="@Url.Action("Delete", "Product", new { id = item.id }, null)"><i class="icon fa fa-trash" style="font-size:24px;color:red;"></i></a>
+
+                </td>
+            </tr>
+        }
+    }
+    </table>
